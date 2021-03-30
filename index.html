@@ -15,9 +15,7 @@
         hr {
             width: 100px;
             height: .3px;
-            padding: .2px;
-            border: 1px solid #444444;
-            background-color: #444444;
+            padding-bottom: 30px;
         }
         
         .NOP {
@@ -40,11 +38,6 @@
             padding-bottom: 6px;
         }
         
-        .form-check {
-            padding-top: 6px;
-            padding-bottom: 15px;
-        }
-        
         #button {
             padding-bottom: 100px;
             padding-top: 50px;
@@ -57,6 +50,13 @@
             color: white;
             background-color: #e46227;
             font-size: small;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
         }
     </style>
 </head>
@@ -158,40 +158,40 @@
                     <div class="col-md-12 col-sm-12">
                         <label class="NOP">Number Of Persons*</label>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
+                            <input class="form-check-input" type="radio" name="NOPR" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="NOPR">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">2</label>
+                            <input class="form-check-input" type="radio" name="NOPR" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="NOPR">2</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                            <label class="form-check-label" for="inlineRadio3">3</label>
+                            <input class="form-check-input" type="radio" name="NOPR" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="NOPR">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option4">
-                            <label class="form-check-label" for="inlineRadio3">4</label>
+                            <input class="form-check-input" type="radio" name="NOPR" id="inlineRadio3" value="option4">
+                            <label class="form-check-label" for="NOPR">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option5">
-                            <label class="form-check-label" for="inlineRadio3">5 (Additional Charge)</label>
+                            <input class="form-check-input" type="radio" name="NOPR" id="inlineRadio3" value="option5">
+                            <label class="form-check-label" for="NOPR">5 (Additional Charge)</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option6">
-                            <label class="form-check-label" for="inlineRadio3">6 (Additional Charge)</label>
+                            <input class="form-check-input" type="radio" name="NOPR" id="inlineRadio3" value="option6">
+                            <label class="form-check-label" for="NOPR">6 (Additional Charge)</label>
                         </div>
                     </div>
 
                     <div class="col-md-12 col-sm-12">
                         <label class="NOP">Number Of Pets*</label>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
+                            <input class="form-check-input" type="radio" name="NOP" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="NOP">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">2</label>
+                            <input class="form-check-input" type="radio" name="NOP" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="NOP">2</label>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12">
@@ -220,40 +220,40 @@
                     <div class="col-md-12 col-sm-12">
                         <label class="NOP">Type of RV</label>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Motor Coach</label>
+                            <input class="form-check-input" type="radio" name="TOR" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="TOR">Motor Coach</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">Motor Home</label>
+                            <input class="form-check-input" type="radio" name="TOR" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="TOR">Motor Home</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                            <label class="form-check-label" for="inlineRadio3">Fifth Wheel</label>
+                            <input class="form-check-input" type="radio" name="TOR" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="TOR">Fifth Wheel</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option4">
-                            <label class="form-check-label" for="inlineRadio3">Trailer</label>
+                            <input class="form-check-input" type="radio" name="TOR" id="inlineRadio3" value="option4">
+                            <label class="form-check-label" for="TOR">Trailer</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option5">
-                            <label class="form-check-label" for="inlineRadio3">Camper</label>
+                            <input class="form-check-input" type="radio" name="TOR" id="inlineRadio3" value="option5">
+                            <label class="form-check-label" for="TOR">Camper</label>
                         </div>
                     </div>
 
                     <div class="col-md-12 col-sm-12">
                         <label class="NOP">umber of Slide Outs</label>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
+                            <input class="form-check-input" type="radio" name="Noso" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="Noso">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">2</label>
+                            <input class="form-check-input" type="radio" name="Noso" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="Noso">2</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option4">
-                            <label class="form-check-label" for="inlineRadio2">3</label>
+                            <input class="form-check-input" type="radio" name="Noso" id="inlineRadio2" value="option4">
+                            <label class="form-check-label" for="Noso">3</label>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
@@ -295,7 +295,7 @@
     <section>
         <div class="container">
             <div class="title text-center">
-                <h1>RV Information</h1>
+                <h1>Group Information</h1>
                 <hr>
             </div>
         </div>
@@ -331,30 +331,16 @@
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <label class="NOP">Joined a group?</label>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">No</label>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12 col-sm-12">
-                        <label class="NOP">umber of Slide Outs</label>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">1</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">2</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option4">
-                            <label class="form-check-label" for="inlineRadio2">3</label>
+                        <div class="form-group">
+                            <label class="NOP">Joined a Group?</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Jog" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Jog" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
@@ -402,8 +388,8 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1"> By selecting this box, I accept and understand the rules and regulations of Golden Shore RV Resort.</label>
+                        <input class="form-check-input" type="radio" name="checkbox" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="checkbox"> By selecting this box, I accept and understand the rules and regulations of Golden Shore RV Resort.</label>
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12">
